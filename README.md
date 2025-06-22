@@ -96,26 +96,15 @@ https://github.com/paridhi-sharmaaa/Student-Portal-App/tree/main/screenshots
 src/
 
 ├── components/
-
-│ └── Navbar.jsx
-
+  └── Navbar.jsx
 ├── pages/
-
-│ ├── Login.jsx
-
-│ ├── Signup.jsx
-
-│ ├── ResetPassword.jsx
-
-│ ├── Dashboard.jsx
-
-│ ├── Users.jsx
-
-│ └── Home.jsx
-
-
+   ├── Login.jsx
+   ├── Signup.jsx
+   ├── ResetPassword.jsx
+   ├── Dashboard.jsx
+   ├── Users.jsx
+└── Home.jsx
 ├── App.jsx
-
 └── main.jsx
 
 
