@@ -94,16 +94,29 @@ https://github.com/paridhi-sharmaaa/Student-Portal-App/tree/main/screenshots
 # 📁 Project Structure
 
 src/
+
 ├── components/
+
 │ └── Navbar.jsx
+
 ├── pages/
+
 │ ├── Login.jsx
+
 │ ├── Signup.jsx
+
 │ ├── ResetPassword.jsx
+
 │ ├── Dashboard.jsx
+
 │ ├── Users.jsx
+
 │ └── Home.jsx
+
+
 ├── App.jsx
+
 └── main.jsx
+
 
 
