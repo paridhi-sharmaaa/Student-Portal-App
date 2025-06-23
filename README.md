@@ -34,17 +34,13 @@ A responsive Student Portal web application built using **React**, **Tailwind CS
 - Light mode has custom theme (light blue + black text)
 - Available on all pages
 
-# ✨ 15+ UI Creative Enhancements
+# ✨ UI Creative Enhancements
 - Page transition animations
 - Card hover glow effects
 - Toast notifications (react-hot-toast)
 - AOS (Animate On Scroll) for dashboard widgets
-- Mini tips popup
 - Blurred glassmorphism card backgrounds
-- Floating search bar
 - Animated toggle switch
-- Loading skeletons
-- Interactive sticky notes
 - Gradient background transitions
 - Responsive cards
 - Icons (react-icons)
