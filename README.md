@@ -97,7 +97,6 @@ npm run dev
 bash
 Always show details
 
-Copy
 # Production build
 npm run build
 Make sure _redirects is copied automatically to dist/ using this script in package.json:
@@ -105,7 +104,7 @@ Make sure _redirects is copied automatically to dist/ using this script in packa
 json
 Always show details
 
-Copy
+
 "build": "vite build && npm run copy-redirects",
 "copy-redirects": "cp public/_redirects dist/_redirects"
 
