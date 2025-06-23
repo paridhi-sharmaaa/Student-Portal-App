@@ -15,7 +15,7 @@ const App = () => {
 
   const login = (credentials) => {
     if (credentials.email === 'student@portal.com' && credentials.password === '123456') {
-      const dummyUser = { name: 'John Doe', email: credentials.email };
+      const dummyUser = { name: 'Paridhi', email: credentials.email };
       localStorage.setItem('user', JSON.stringify(dummyUser));
       setUser(dummyUser);
       toast.success('Logged in successfully!');
