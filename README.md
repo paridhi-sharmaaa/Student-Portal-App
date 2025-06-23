@@ -4,51 +4,45 @@ A responsive Student Portal web application built using **React**, **Tailwind CS
 
 ---
 
-# ✅ Features Implemented
+# Features Implemented
 
-# 🔐 Authentication Pages
+# Authentication Pages
 - Login with dummy validation (email: `student@portal.com`, password: `123456`)
 - Signup form (non-functional, for demo)
 - Forgot Password → Reset Password flow
 - Auth state stored via `localStorage`
 
-# 📌 Sticky Navbar
+# Sticky Navbar
 - Remains on top while scrolling
 - Includes links: Home | Users | Dashboard | Logout
 - Displays logged-in user name
 
-# 🏠 Home Page
+# Home Page
 - Welcome text and intro to the portal
 
-# 👤 Users Page
+# Users Page
 - Fetches data from: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 - Shows user cards with Name, Email, Phone, Website
 - Handles loading & error states
 
-# 📊 Dashboard
+# Dashboard
 - Summary cards for GPA, Attendance, Subjects
 - Creative layout using Tailwind’s grid and flex utilities
 
-# 🌗 Dark / Light Mode
+# Dark / Light Mode
 - Default dark mode with toggle to light mode
 - Light mode has custom theme (light blue + black text)
 - Available on all pages
 
-# ✨ 15+ UI Creative Enhancements
+# UI Creative Enhancements
 - Page transition animations
 - Card hover glow effects
 - Toast notifications (react-hot-toast)
 - AOS (Animate On Scroll) for dashboard widgets
-- Mini tips popup
 - Blurred glassmorphism card backgrounds
-- Floating search bar
 - Animated toggle switch
-- Loading skeletons
-- Interactive sticky notes
-- Gradient background transitions
 - Responsive cards
 - Icons (react-icons)
-- Glow-on-focus inputs
 - Responsive to small screens
 
 ---
@@ -62,16 +56,16 @@ https://paridhi-student-portal-apps.netlify.app/
 https://github.com/paridhi-sharmaaa/Student-Portal-App/tree/main/screenshots
 ---
 
-# 🧠 What I Learned / Challenges Faced
+# What I Learned / Challenges Faced
 
-# 🔍 Key Learnings:
+# Key Learnings:
 - Managing dark/light theme toggle globally using Tailwind's `dark:` classes
 - Working with `react-router-dom` to build protected routes & navigation
 - Handling API loading/error states gracefully
 - Structuring React apps with components & pages
 - Using `react-hot-toast` and `AOS` for better UX
 
-# ⚠️ Challenges:
+# Challenges:
 - Making sure dark mode styling works consistently across all pages
 - Styling Tailwind from Figma references
 - Netlify deployment with correct build output (`dist/`)
@@ -90,6 +84,30 @@ https://github.com/paridhi-sharmaaa/Student-Portal-App/tree/main/screenshots
 - React Icons
 
 ---
+
+## Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+🏗️ Build & Deploy
+bash
+Always show details
+
+Copy
+# Production build
+npm run build
+Make sure _redirects is copied automatically to dist/ using this script in package.json:
+
+json
+Always show details
+
+Copy
+"build": "vite build && npm run copy-redirects",
+"copy-redirects": "cp public/_redirects dist/_redirects"
 
 
 
